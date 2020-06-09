@@ -33,8 +33,8 @@ const App=createAppContainer(switchNavigator);
 // const store= configureStore;
 export default ()=>{
   return(
-    // <AuthProvider>
+    <AuthProvider>
       <App/> 
-    // </AuthProvider>
+    </AuthProvider>
   );
 };
